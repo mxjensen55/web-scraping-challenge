@@ -1,0 +1,24 @@
+.feature_item{
+    width: 700px;
+    height: 500px;
+}
+
+#first_page{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#hemi_1, #hemi_2, #hemi_3, #hemi_4{
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.display-4{
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+}
