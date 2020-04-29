@@ -22,6 +22,7 @@
     <div class="row">
       <div class="col-md-12">
         <h1><strong> Latest Mars News</strong></h1>
+        <hr>
         <h3>{{mars.headline}}</h3>
         <p>{{mars.paragraph}}</p>
       </div>
@@ -29,6 +30,7 @@
     <div class="row">
       <div class="col-md-8">
         <h1><strong>Featured Mars Image</strong></h1>
+        <hr>
         <img class="feature_item" src="{{mars.featured_image}}" alt="Mars_Featured_Image">
       </div>
 
@@ -40,8 +42,10 @@
           </div>
         </div>
         <div>
-          <h4><strong>Mars Facts</strong></h4>
-          {{mars.mars_table | safe }}
+          <div class="card-body">
+            <h4 class="card-title"><strong>Mars Facts</strong></h4>
+            <p class="card-text">{{mars.mars_table | safe }}</p>
+          </div>
         </div>
       </div>
 

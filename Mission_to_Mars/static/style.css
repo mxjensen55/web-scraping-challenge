@@ -21,4 +21,11 @@
 
 .card-body{
     text-align: center;
+    padding: 15px;
+}
+
+.card-title{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 20px;
 }
